@@ -4,8 +4,6 @@ Gra platformowa 2D stworzona w C++ z użyciem biblioteki **SFML**, jako projekt 
 
 Celem gracza jest uratowanie przyjaciela i zdobycie jak najwyższego wyniku, omijając przeciwników i przeszkody oraz wykorzystując przedmioty znalezione na mapie do znalezienia właściwej drogi.
 
-> Projekt studencki z 2020 r.
-
 ---
 
 ## 🕹️ Rozgrywka
