@@ -2,11 +2,11 @@
 
 Menu::Menu(float width, float height)
 {
-	music_menu.openFromFile("menu.ogg");
+	music_menu.openFromFile("assets/audio/menu.ogg");
 	music_menu.setVolume(25);
 	music_menu.setLoop(true);
 	music_menu.play();
-	if(!font.loadFromFile("font.ttf"))
+	if(!font.loadFromFile("assets/fonts/font.ttf"))
 	{
 
 	}

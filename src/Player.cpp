@@ -1,3 +1,4 @@
+#include <cmath>
 #include "Player.h"
 
 
@@ -8,7 +9,7 @@ Player::Player(sf::Texture* texture, sf::Vector2u imageCount, float switchTime, 
 	this->jumpHeight = jumpHeight;
 	row = 0;
 	faceRight = true;
-	buffer1.loadFromFile("jump.wav");
+	buffer1.loadFromFile("assets/audio/jump.wav");
 	sound1.setBuffer(buffer1);
 	sound1.setMinDistance(1);
 

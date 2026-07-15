@@ -19,7 +19,7 @@ SpecialObjects::~SpecialObjects()
 
 void SpecialObjects::loadSpecialObjects()
 {
-	std::ifstream file("specialobjects.txt");
+	std::ifstream file("assets/levels/specialobjects.txt");
 	std::string charLine;
 	std::vector<char> textureLine;
 	if (file.is_open())

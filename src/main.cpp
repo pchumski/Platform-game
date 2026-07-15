@@ -8,7 +8,7 @@ void Options()
 	sf::RenderWindow* window;
 	window = new sf::RenderWindow(sf::VideoMode(800, 800), "Options");
 	sf::Texture texture;
-	texture.loadFromFile("options.png");
+	texture.loadFromFile("assets/textures/options.png");
 	sf::Sprite sprite;
 	sprite.setTexture(texture);
 	sprite.setPosition(0, 0);
@@ -44,20 +44,20 @@ int main()
 	Menu menu(wndw->getSize().x, wndw->getSize().y);
 
 	sf::Texture texture;
-	texture.loadFromFile("menu.png");
+	texture.loadFromFile("assets/textures/menu.png");
 	sf::Sprite sprite;
 	sprite.setTexture(texture);
 	sprite.setPosition(0, 0);
 
 	sf::Sound sound1;
 	sf::SoundBuffer buffer1;
-	buffer1.loadFromFile("start.wav");
+	buffer1.loadFromFile("assets/audio/start.wav");
 	sound1.setBuffer(buffer1);
 	sound1.setMinDistance(4);
 
 	sf::Sound sound2;
 	sf::SoundBuffer buffer2;
-	buffer2.loadFromFile("select.wav");
+	buffer2.loadFromFile("assets/audio/select.wav");
 	sound2.setBuffer(buffer2);
 	sound2.setMinDistance(1);
 

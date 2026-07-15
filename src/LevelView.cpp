@@ -19,7 +19,7 @@ LevelView::~LevelView()
 
 void LevelView::loadTextures()
 {
-	std::ifstream file("textures.txt");
+	std::ifstream file("assets/levels/textures.txt");
 	std::string charLine;
 	std::vector<char> textureLine;
 	if (file.is_open())

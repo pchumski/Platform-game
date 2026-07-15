@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include <map>
-#include <SFML\Graphics\Sprite.hpp>
+#include <SFML/Graphics/Sprite.hpp>
 #include "Collider.h"
 
 class SpecialObjects

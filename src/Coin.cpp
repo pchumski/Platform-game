@@ -19,7 +19,7 @@ Coin::~Coin()
 
 void Coin::loadCoin()
 {
-	std::ifstream file("coins.txt");
+	std::ifstream file("assets/levels/coins.txt");
 	std::string charLine;
 	std::vector<char> textureLine;
 	if (file.is_open())

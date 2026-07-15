@@ -360,3 +360,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# --- Dodane przez restructure.sh ---
+# Wendorowana biblioteka SFML — pobierz osobno, patrz README.md
+external/SFML/
+# Katalog builda CMake
+/build/

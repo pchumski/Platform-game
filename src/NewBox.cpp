@@ -19,7 +19,7 @@ NewBox::~NewBox()
 
 void NewBox::loadNewBox()
 {
-	std::ifstream file("newbox.txt");
+	std::ifstream file("assets/levels/newbox.txt");
 	std::string charLine;
 	std::vector<char> textureLine;
 	if (file.is_open())

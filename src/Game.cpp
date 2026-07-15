@@ -35,155 +35,155 @@ Game::~Game()
 
 void Game::loadTextures()
 {
-	playerTexture.loadFromFile("rogue5.png");
-	newcharacterTexture.loadFromFile("rycerz12.png");
-	enemyTexture1.loadFromFile("enemy3.png");
-	enemyTexture2.loadFromFile("enemy4.png");
+	playerTexture.loadFromFile("assets/textures/rogue5.png");
+	newcharacterTexture.loadFromFile("assets/textures/rycerz12.png");
+	enemyTexture1.loadFromFile("assets/textures/enemy3.png");
+	enemyTexture2.loadFromFile("assets/textures/enemy4.png");
 
-	background.loadFromFile("BG.png");
+	background.loadFromFile("assets/textures/BG.png");
 
 	one = new sf::Texture;
-	one->loadFromFile("x.png");
+	one->loadFromFile("assets/textures/x.png");
 	GroundTextures['x'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("1.png");
+	one->loadFromFile("assets/textures/1.png");
 	GroundTextures['a'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("2.png");
+	one->loadFromFile("assets/textures/2.png");
 	GroundTextures['b'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("3.png");
+	one->loadFromFile("assets/textures/3.png");
 	GroundTextures['c'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("4.png");
+	one->loadFromFile("assets/textures/4.png");
 	GroundTextures['d'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("5.png");
+	one->loadFromFile("assets/textures/5.png");
 	GroundTextures['e'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("6.png");
+	one->loadFromFile("assets/textures/6.png");
 	GroundTextures['f'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("7.png");
+	one->loadFromFile("assets/textures/7.png");
 	GroundTextures['g'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("8.png");
+	one->loadFromFile("assets/textures/8.png");
 	GroundTextures['h'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("9.png");
+	one->loadFromFile("assets/textures/9.png");
 	GroundTextures['i'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("10.png");
+	one->loadFromFile("assets/textures/10.png");
 	GroundTextures['j'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("11.png");
+	one->loadFromFile("assets/textures/11.png");
 	GroundTextures['k'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("12.png");
+	one->loadFromFile("assets/textures/12.png");
 	GroundTextures['l'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("13.png");
+	one->loadFromFile("assets/textures/13.png");
 	GroundTextures['m'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("14.png");
+	one->loadFromFile("assets/textures/14.png");
 	GroundTextures['n'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("15.png");
+	one->loadFromFile("assets/textures/15.png");
 	GroundTextures['o'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("16.png");
+	one->loadFromFile("assets/textures/16.png");
 	GroundTextures['p'] = one;
 
 	/*one = new sf::Texture;
-	one->loadFromFile("17.png");
+	one->loadFromFile("assets/textures/17.png");
 	GroundTextures['r'] = one;
 
 	one = new sf::Texture;
-	one->loadFromFile("18.png");
+	one->loadFromFile("assets/textures/18.png");
 	GroundTextures['s'] = one;*/
 
 	two = new sf::Texture;
-	two->loadFromFile("Bush1.png");
+	two->loadFromFile("assets/textures/Bush1.png");
 	ViewTextures['1'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Bush2.png");
+	two->loadFromFile("assets/textures/Bush2.png");
 	ViewTextures['2'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Bush3.png");
+	two->loadFromFile("assets/textures/Bush3.png");
 	ViewTextures['3'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Bush4.png");
+	two->loadFromFile("assets/textures/Bush4.png");
 	ViewTextures['4'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Sign1.png");
+	two->loadFromFile("assets/textures/Sign1.png");
 	ViewTextures['5'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Sign2.png");
+	two->loadFromFile("assets/textures/Sign2.png");
 	ViewTextures['6'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Sign3.png");
+	two->loadFromFile("assets/textures/Sign3.png");
 	ViewTextures['7'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Stone.png");
+	two->loadFromFile("assets/textures/Stone.png");
 	ViewTextures['8'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Tree1.png");
+	two->loadFromFile("assets/textures/Tree1.png");
 	ViewTextures['9'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Mushroom1.png");
+	two->loadFromFile("assets/textures/Mushroom1.png");
 	ViewTextures['m'] = two;
 
 	two = new sf::Texture;
-	two->loadFromFile("Mushroom2.png");
+	two->loadFromFile("assets/textures/Mushroom2.png");
 	ViewTextures['n'] = two;
 
 	three = new sf::Texture;
-	three->loadFromFile("Crate.png");
+	three->loadFromFile("assets/textures/Crate.png");
 	ItemsTextures['1'] = three;
 
 	four = new sf::Texture;
-	four->loadFromFile("coin.png");
+	four->loadFromFile("assets/textures/coin.png");
 	CoinTextures['1'] = four;
 
 	five = new sf::Texture;
-	five->loadFromFile("17.png");
+	five->loadFromFile("assets/textures/17.png");
 	DangerousTextures['r'] = five;
 
 	five = new sf::Texture;
-	five->loadFromFile("18.png");
+	five->loadFromFile("assets/textures/18.png");
 	DangerousTextures['s'] = five;
 
 	
-	file.loadFromFile("hpfull.png");
+	file.loadFromFile("assets/textures/hpfull.png");
 	hpfull.setTexture(file);
 	hpfull.setScale(0.7f, 0.7f);
 
-	filenull.loadFromFile("hpnull.png");
+	filenull.loadFromFile("assets/textures/hpnull.png");
 	hpnull.setTexture(filenull);
 	hpnull.setScale(0.7f, 0.7f);
 
@@ -195,47 +195,47 @@ void Game::loadTextures()
 	hp.push_back(hpnull);
 	hp.push_back(hpnull);
 
-	coin_gold.loadFromFile("coin_gold.png");
+	coin_gold.loadFromFile("assets/textures/coin_gold.png");
 	gold_coin.setTexture(coin_gold);
 	gold_coin.setScale(0.5f, 0.5f);
 
 	six = new sf::Texture;
-	six->loadFromFile("box.png");
+	six->loadFromFile("assets/textures/Box.png");
 	NewBoxTextures['1'] = six;
 
 	four = new sf::Texture;
-	four->loadFromFile("up1.png");
+	four->loadFromFile("assets/textures/up1.png");
 	SpecialObjectsTextures['1'] = four;
 }
 
 void Game::loadData()
 {
-	music.openFromFile("music.ogg");
+	music.openFromFile("assets/audio/music.ogg");
 	music.setVolume(25);
 	music.setLoop(true);
 	music.play();
 
-	buffer1.loadFromFile("coin.wav");
+	buffer1.loadFromFile("assets/audio/coin.wav");
 	sound1.setBuffer(buffer1);
 	sound1.setMinDistance(2);
 
-	buffer2.loadFromFile("ohno1.wav");
+	buffer2.loadFromFile("assets/audio/ohno1.wav");
 	sound2.setBuffer(buffer2);
 	sound2.setMinDistance(1);
 
-	buffer3.loadFromFile("up.wav");
+	buffer3.loadFromFile("assets/audio/up.wav");
 	sound3.setBuffer(buffer3);
 	sound3.setMinDistance(2);
 
-	buffer4.loadFromFile("roar.wav");
+	buffer4.loadFromFile("assets/audio/roar.wav");
 	sound4.setBuffer(buffer4);
 	sound4.setMinDistance(3);
 
-	buffer5.loadFromFile("rick.wav");
+	buffer5.loadFromFile("assets/audio/rick.wav");
 	sound5.setBuffer(buffer5);
 	sound5.setMinDistance(2);
 
-	buffer6.loadFromFile("kill.wav");
+	buffer6.loadFromFile("assets/audio/kill.wav");
 	sound6.setBuffer(buffer6);
 	sound6.setMinDistance(2);
 
@@ -484,7 +484,7 @@ void Game::Render()
 		}
 	}
 
-	font.loadFromFile("font.ttf");
+	font.loadFromFile("assets/fonts/font.ttf");
 	lblScore.setCharacterSize(20);
 	lblScore.setFillColor(sf::Color::Black);
 	lblScore.setFont(font);
@@ -522,7 +522,7 @@ void Game::Render()
 		window->close();
 		sf::RenderWindow* window1;
 		window1 = new sf::RenderWindow(sf::VideoMode(600, 400), "Win");
-		texture.loadFromFile("gameover.png");
+		texture.loadFromFile("assets/textures/gameover.png");
 		sprite12.setTexture(texture);
 		sprite12.setPosition(0, 0);
 
@@ -1620,7 +1620,7 @@ void Game::CheckCollision15(sf::Vector2f& direction, float p)//kolizja gracza z 
 		window->close();
 		sf::RenderWindow* window2;
 		window2 = new sf::RenderWindow(sf::VideoMode(600, 400), "Win");
-		texture.loadFromFile("win.png");
+		texture.loadFromFile("assets/textures/win.png");
 		sprite12.setTexture(texture);
 		sprite12.setPosition(0, 0);
 
@@ -1654,7 +1654,7 @@ void Game::CheckCollision15(sf::Vector2f& direction, float p)//kolizja gracza z 
 
 void Game::loadEnemies()
 {
-	std::ifstream file("enemies.txt");
+	std::ifstream file("assets/levels/enemies.txt");
 	std::string charLine;
 	std::vector<char> mapLine;
 	if (file.is_open())

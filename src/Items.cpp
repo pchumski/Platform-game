@@ -19,7 +19,7 @@ Items::~Items()
 
 void Items::loadItems()
 {
-	std::ifstream file("items.txt");
+	std::ifstream file("assets/levels/items.txt");
 	std::string charLine;
 	std::vector<char> textureLine;
 	if (file.is_open())

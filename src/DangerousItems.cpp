@@ -19,7 +19,7 @@ DangerousItems::~DangerousItems()
 
 void DangerousItems::loadDangerousItems()
 {
-	std::ifstream file("dangerousitems.txt");
+	std::ifstream file("assets/levels/dangerousitems.txt");
 	std::string charLine;
 	std::vector<char> textureLine;
 	if (file.is_open())
