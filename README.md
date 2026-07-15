@@ -116,3 +116,5 @@ Logika gry, zawartość plików `.cpp`/`.h` (poza wymienionymi wyżej włączeni
 ## 📄 Licencja
 
 Projekt udostępniony na licencji [MIT](LICENSE).
+
+Last update 07.2020
